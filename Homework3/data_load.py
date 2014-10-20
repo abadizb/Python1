@@ -1,5 +1,4 @@
 import os
-import shutil
 import fnmatch
 import pickle
 import sys
@@ -8,7 +7,7 @@ from quotes import datalist
 
 def get_traversal_data():
     list1 = []
-    start_dir = '/Users/osama/fortune1'
+    start_dir = 'C:\Users\Halim\Python34'
 
     for directory, folders, files in os.walk(start_dir):
             for single_file in files:
